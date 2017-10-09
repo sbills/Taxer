@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane prefHeight="2065.0" prefWidth="1105.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="taxerfxml.FXMLDocumentController">
+   <content>
+      <AnchorPane id="AnchorPane" prefHeight="2085.0" prefWidth="1092.0">
+          <children>
+            <Label layoutX="238.0" layoutY="6.0" text="Sale" />
+            <Label layoutX="358.0" layoutY="6.0" text="Tax" />
+            <Label layoutX="491.0" layoutY="6.0" text="County" />
+            <Label layoutX="622.0" layoutY="6.0" text="Freight" />
+            <Label layoutX="741.0" layoutY="6.0" text="Labor" />
+            <Label layoutX="857.0" layoutY="6.0" text="Cost" />
+            <Label layoutX="994.0" layoutY="6.0" text="Profit" />
+            <Label layoutX="14.0" layoutY="6.0" text="Customer" />
+            <TextField layoutY="81.0" promptText="Customer 1" />
+            <TextField layoutY="125.0" promptText="Customer 2" />
+            <TextField layoutY="168.0" promptText="Customer 3" />
+            <TextField layoutY="212.0" promptText="Customer 4" />
+            <TextField layoutY="256.0" promptText="Customer 5" />
+            <TextField layoutY="303.0" promptText="Customer 6" />
+            <TextField layoutY="346.0" promptText="Customer 7" />
+            <TextField layoutY="394.0" promptText="Customer 8" />
+            <TextField layoutY="439.0" promptText="Customer 9" />
+            <TextField layoutY="485.0" promptText="Customer 10" />
+            <TextField layoutY="537.0" promptText="Customer 11" />
+            <TextField layoutY="582.0" promptText="Customer 12" />
+            <TextField fx:id="sale1" layoutX="205.0" layoutY="83.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 1" />
+            <TextField fx:id="sale2" layoutX="205.0" layoutY="127.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 2" />
+            <TextField fx:id="sale3" layoutX="205.0" layoutY="170.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 3" />
+            <TextField fx:id="sale4" layoutX="205.0" layoutY="214.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 4" />
+            <TextField fx:id="sale5" layoutX="205.0" layoutY="258.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 5" />
+            <TextField fx:id="sale6" layoutX="205.0" layoutY="305.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 6" />
+            <TextField fx:id="sale7" layoutX="205.0" layoutY="348.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 7" />
+            <TextField fx:id="sale8" layoutX="205.0" layoutY="396.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 8" />
+            <TextField fx:id="sale9" layoutX="205.0" layoutY="441.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 9" />
+            <TextField fx:id="sale10" layoutX="205.0" layoutY="487.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 10" />
+            <TextField fx:id="sale11" layoutX="205.0" layoutY="539.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 11" />
+            <TextField fx:id="sale12" layoutX="205.0" layoutY="584.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 12" />
+            <TextField fx:id="tax1" layoutX="319.0" layoutY="83.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 1" />
+            <TextField fx:id="tax2" layoutX="319.0" layoutY="127.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 2" />
+            <TextField fx:id="tax3" layoutX="319.0" layoutY="168.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 3" />
+            <TextField fx:id="tax4" layoutX="319.0" layoutY="214.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 4" />
+            <TextField fx:id="tax5" layoutX="319.0" layoutY="258.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 5" />
+            <TextField fx:id="tax6" layoutX="319.0" layoutY="305.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 6" />
+            <TextField fx:id="tax7" layoutX="319.0" layoutY="348.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 7" />
+            <TextField fx:id="tax8" layoutX="319.0" layoutY="394.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 8" />
+            <TextField fx:id="tax9" layoutX="319.0" layoutY="441.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 9" />
+            <TextField fx:id="tax10" layoutX="319.0" layoutY="487.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 10" />
+            <TextField fx:id="tax11" layoutX="319.0" layoutY="539.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 11" />
+            <TextField fx:id="tax12" layoutX="319.0" layoutY="584.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 12" />
+            <ComboBox id="comboBox1" fx:id="comboBox1" layoutX="466.0" layoutY="77.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox2" fx:id="comboBox2" layoutX="466.0" layoutY="120.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" /> 
+            <ComboBox id="comboBox3" fx:id="comboBox3" layoutX="466.0" layoutY="166.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox4" fx:id="comboBox4" layoutX="466.0" layoutY="210.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox5" fx:id="comboBox5" layoutX="466.0" layoutY="254.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox6" fx:id="comboBox6" layoutX="466.0" layoutY="301.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox7" fx:id="comboBox7" layoutX="466.0" layoutY="344.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox8" fx:id="comboBox8" layoutX="466.0" layoutY="392.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox9" fx:id="comboBox9" layoutX="466.0" layoutY="437.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox10" fx:id="comboBox10" layoutX="466.0" layoutY="483.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox11" fx:id="comboBox11" layoutX="466.0" layoutY="533.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox12" fx:id="comboBox12" layoutX="466.0" layoutY="580.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <Button fx:id="calculate" layoutX="14.0" layoutY="2026.0" mnemonicParsing="false" onAction="#calculateTotal" text="Calculate" />
+            <TextField fx:id="freight1" layoutX="597.0" layoutY="81.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 1" />
+            <TextField fx:id="freight2" layoutX="597.0" layoutY="125.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 2" />
+            <TextField fx:id="freight3" layoutX="597.0" layoutY="171.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 3" />
+            <TextField fx:id="freight4" layoutX="597.0" layoutY="212.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 4" />
+            <TextField fx:id="freight5" layoutX="597.0" layoutY="256.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 5" />
+            <TextField fx:id="freight6" layoutX="597.0" layoutY="303.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 6" />
+            <TextField fx:id="freight7" layoutX="597.0" layoutY="346.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 7" />
+            <TextField fx:id="freight8" layoutX="597.0" layoutY="396.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 8" />
+            <TextField fx:id="freight9" layoutX="597.0" layoutY="439.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 9" />
+            <TextField fx:id="freight10" layoutX="597.0" layoutY="485.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 10" />
+            <TextField fx:id="freight11" layoutX="597.0" layoutY="537.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 11" />
+            <TextField fx:id="freight12" layoutX="597.0" layoutY="582.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 12" />
+            <TextField fx:id="labor1" layoutX="712.0" layoutY="81.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 1" />
+            <TextField fx:id="labor2" layoutX="712.0" layoutY="125.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 2" />
+            <TextField fx:id="labor3" layoutX="712.0" layoutY="171.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 3" />
+            <TextField fx:id="labor4" layoutX="713.0" layoutY="212.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 4" />
+            <TextField fx:id="labor5" layoutX="713.0" layoutY="256.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 5" />
+            <TextField fx:id="labor6" layoutX="713.0" layoutY="303.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 6" />
+            <TextField fx:id="labor7" layoutX="713.0" layoutY="346.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 7" />
+            <TextField fx:id="labor8" layoutX="713.0" layoutY="397.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 8" />
+            <TextField fx:id="labor9" layoutX="713.0" layoutY="439.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 9" />
+            <TextField fx:id="labor10" layoutX="713.0" layoutY="485.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 10" />
+            <TextField fx:id="labor11" layoutX="713.0" layoutY="537.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 11" />
+            <TextField fx:id="labor12" layoutX="713.0" layoutY="582.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 12" />
+            <TextField fx:id="cost1" layoutX="825.0" layoutY="82.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 1" />
+            <TextField fx:id="cost2" layoutX="825.0" layoutY="125.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 2" />
+            <TextField fx:id="cost3" layoutX="825.0" layoutY="170.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 3" />
+            <TextField fx:id="cost4" layoutX="825.0" layoutY="212.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 4" />
+            <TextField fx:id="cost5" layoutX="825.0" layoutY="256.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 5" />
+            <TextField fx:id="cost6" layoutX="825.0" layoutY="303.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 6" />
+            <TextField fx:id="cost7" layoutX="825.0" layoutY="346.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 7" />
+            <TextField fx:id="cost8" layoutX="825.0" layoutY="396.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 8" />
+            <TextField fx:id="cost9" layoutX="825.0" layoutY="439.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 9" />
+            <TextField fx:id="cost10" layoutX="825.0" layoutY="485.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 10" />
+            <TextField fx:id="cost11" layoutX="825.0" layoutY="537.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 11" />
+            <TextField fx:id="cost12" layoutX="825.0" layoutY="582.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 12" />
+            <TextField fx:id="profit1" layoutX="952.0" layoutY="81.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 1" />
+            <TextField fx:id="profit2" layoutX="952.0" layoutY="125.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 2" />
+            <TextField fx:id="profit3" layoutX="952.0" layoutY="168.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 3" />
+            <TextField fx:id="profit4" layoutX="952.0" layoutY="212.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 4" />
+            <TextField fx:id="profit5" layoutX="952.0" layoutY="256.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 5" />
+            <TextField fx:id="profit6" layoutX="952.0" layoutY="303.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 6" />
+            <TextField fx:id="profit7" layoutX="952.0" layoutY="346.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 7" />
+            <TextField fx:id="profit8" layoutX="952.0" layoutY="394.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 8" />
+            <TextField fx:id="profit9" layoutX="952.0" layoutY="439.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 9" />
+            <TextField fx:id="profit10" layoutX="952.0" layoutY="485.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 10" />
+            <TextField fx:id="profit11" layoutX="952.0" layoutY="537.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 11" />
+            <TextField fx:id="profit12" layoutX="952.0" layoutY="582.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 12" />
+            <TextField layoutY="625.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 13" />
+            <TextField layoutY="671.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 14" />
+            <TextField layoutY="715.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 15" />
+            <TextField layoutY="1111.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 23" />
+            <TextField layoutY="1061.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 22" />
+            <TextField layoutY="1008.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 21" />
+            <TextField layoutY="959.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 20" />
+            <TextField layoutY="910.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 19" />
+            <TextField layoutY="861.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 18" />
+            <TextField layoutY="763.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 16" />
+            <TextField layoutY="810.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 17" />
+            <TextField layoutY="1348.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 28" />
+            <TextField layoutX="-1.0" layoutY="1158.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 24" />
+            <TextField layoutY="1300.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 27" />
+            <TextField layoutY="1255.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 26" />
+            <TextField layoutY="1206.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 25" />
+            <TextField layoutX="-1.0" layoutY="1399.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 29" />
+            <TextField layoutY="1446.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 30" />
+            <TextField layoutX="-1.0" layoutY="1498.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 31" />
+            <TextField layoutY="1548.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 32" />
+            <TextField layoutY="1597.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 33" />
+            <TextField layoutY="1651.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 34" />
+            <TextField layoutY="1703.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 35" />
+            <TextField layoutY="1750.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 36" />
+            <TextField layoutY="1799.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 37" />
+            <TextField layoutY="1848.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 38" />
+            <TextField fx:id="sale13" layoutX="205.0" layoutY="625.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 13" />
+            <TextField fx:id="sale14" layoutX="205.0" layoutY="671.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 14" />
+            <TextField fx:id="sale15" layoutX="205.0" layoutY="715.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 15" />
+            <TextField fx:id="sale16" layoutX="205.0" layoutY="763.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 16" />
+            <TextField fx:id="sale17" layoutX="205.0" layoutY="810.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 17" />
+            <TextField fx:id="sale18" layoutX="205.0" layoutY="861.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 18" />
+            <TextField fx:id="sale19" layoutX="205.0" layoutY="910.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 19" />
+            <TextField fx:id="sale20" layoutX="205.0" layoutY="959.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 20" />
+            <TextField fx:id="sale21" layoutX="205.0" layoutY="1008.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 21" />
+            <TextField fx:id="sale22" layoutX="205.0" layoutY="1061.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 22" />
+            <TextField fx:id="sale23" layoutX="205.0" layoutY="1111.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 23" />
+            <TextField fx:id="sale24" layoutX="205.0" layoutY="1158.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 24" />
+            <TextField fx:id="sale25" layoutX="205.0" layoutY="1206.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 25" />
+            <TextField fx:id="sale26" layoutX="205.0" layoutY="1255.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 26" />
+            <TextField fx:id="sale27" layoutX="205.0" layoutY="1300.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 27" />
+            <TextField fx:id="sale28" layoutX="205.0" layoutY="1348.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 28" />
+            <TextField fx:id="sale29" layoutX="205.0" layoutY="1399.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 29" />
+            <TextField fx:id="sale30" layoutX="205.0" layoutY="1446.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 30" />
+            <TextField fx:id="sale31" layoutX="205.0" layoutY="1498.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 31" />
+            <TextField fx:id="sale32" layoutX="205.0" layoutY="1548.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 32" />
+            <TextField fx:id="sale33" layoutX="205.0" layoutY="1597.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 33" />
+            <TextField fx:id="sale34" layoutX="205.0" layoutY="1651.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 34" />
+            <TextField fx:id="sale35" layoutX="205.0" layoutY="1703.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 35" />
+            <TextField fx:id="sale36" layoutX="205.0" layoutY="1750.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 36" />
+            <TextField fx:id="sale37" layoutX="205.0" layoutY="1799.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 37" />
+            <TextField fx:id="saleTotal" layoutX="205.0" layoutY="2026.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale Total" />
+            <TextField fx:id="sale38" layoutX="205.0" layoutY="1848.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 38" />
+            <TextField fx:id="tax13" layoutX="319.0" layoutY="625.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 13" />
+            <TextField fx:id="tax14" layoutX="319.0" layoutY="671.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 14" />
+            <TextField fx:id="tax15" layoutX="319.0" layoutY="715.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 15" />
+            <TextField fx:id="tax16" layoutX="319.0" layoutY="763.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 16" />
+            <TextField fx:id="tax17" layoutX="319.0" layoutY="810.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 17" />
+            <TextField fx:id="tax18" layoutX="319.0" layoutY="861.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 18" />
+            <TextField fx:id="tax19" layoutX="319.0" layoutY="910.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 19" />
+            <TextField fx:id="tax20" layoutX="319.0" layoutY="959.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 20" />
+            <TextField fx:id="tax21" layoutX="319.0" layoutY="1008.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 21" />
+            <TextField fx:id="tax22" layoutX="319.0" layoutY="1061.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 22" />
+            <TextField fx:id="tax31" layoutX="319.0" layoutY="1498.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 31" />
+            <TextField fx:id="tax30" layoutX="319.0" layoutY="1446.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 30" />
+            <TextField fx:id="tax29" layoutX="319.0" layoutY="1399.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 29" />
+            <TextField fx:id="tax28" layoutX="319.0" layoutY="1348.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 28" />
+            <TextField fx:id="tax27" layoutX="319.0" layoutY="1300.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 27" />
+            <TextField fx:id="tax26" layoutX="319.0" layoutY="1255.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 26" />
+            <TextField fx:id="tax25" layoutX="319.0" layoutY="1206.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 25" />
+            <TextField fx:id="tax24" layoutX="319.0" layoutY="1158.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 24" />
+            <TextField fx:id="tax23" layoutX="319.0" layoutY="1112.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 23" />
+            <TextField fx:id="tax32" layoutX="319.0" layoutY="1548.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 32" />
+            <TextField fx:id="tax33" layoutX="319.0" layoutY="1597.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 33" />
+            <TextField fx:id="tax34" layoutX="319.0" layoutY="1651.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 34" />
+            <TextField fx:id="tax35" layoutX="319.0" layoutY="1703.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 35" />
+            <TextField fx:id="tax36" layoutX="319.0" layoutY="1750.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 36" />
+            <TextField fx:id="tax37" layoutX="319.0" layoutY="1799.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 37" />
+            <TextField fx:id="tax38" layoutX="319.0" layoutY="1848.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 38" />
+            <TextField fx:id="taxTotal" layoutX="319.0" layoutY="2026.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax Total" />
+            <ComboBox id="comboBox12" fx:id="comboBox24" layoutX="466.0" layoutY="1154.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox11" fx:id="comboBox23" layoutX="466.0" layoutY="1107.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox10" fx:id="comboBox22" layoutX="466.0" layoutY="1057.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox9" fx:id="comboBox21" layoutX="466.0" layoutY="1004.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox8" fx:id="comboBox20" layoutX="466.0" layoutY="955.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox7" fx:id="comboBox19" layoutX="466.0" layoutY="906.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox6" fx:id="comboBox18" layoutX="466.0" layoutY="857.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox5" fx:id="comboBox17" layoutX="466.0" layoutY="802.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox4" fx:id="comboBox16" layoutX="466.0" layoutY="758.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox3" fx:id="comboBox15" layoutX="466.0" layoutY="714.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox2" fx:id="comboBox14" layoutX="466.0" layoutY="668.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox1" fx:id="comboBox13" layoutX="466.0" layoutY="625.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox12" fx:id="comboBox38" layoutX="466.0" layoutY="1844.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox11" fx:id="comboBox37" layoutX="466.0" layoutY="1795.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox10" fx:id="comboBox36" layoutX="466.0" layoutY="1746.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox9" fx:id="comboBox35" layoutX="466.0" layoutY="1699.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox8" fx:id="comboBox33" layoutX="466.0" layoutY="1593.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox7" fx:id="comboBox32" layoutX="466.0" layoutY="1544.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox6" fx:id="comboBox34" layoutX="466.0" layoutY="1647.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox5" fx:id="comboBox29" layoutX="466.0" layoutY="1395.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox4" fx:id="comboBox28" layoutX="466.0" layoutY="1344.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox3" fx:id="comboBox27" layoutX="466.0" layoutY="1294.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox2" fx:id="comboBox26" layoutX="466.0" layoutY="1250.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox1" fx:id="comboBox25" layoutX="466.0" layoutY="1202.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox7" fx:id="comboBox31" layoutX="466.0" layoutY="1494.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox7" fx:id="comboBox30" layoutX="466.0" layoutY="1442.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <TextField fx:id="profit24" layoutX="952.0" layoutY="1158.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 24" />
+            <TextField fx:id="profit23" layoutX="952.0" layoutY="1111.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 23" />
+            <TextField fx:id="profit22" layoutX="952.0" layoutY="1061.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 22" />
+            <TextField fx:id="profit21" layoutX="952.0" layoutY="1009.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 21" />
+            <TextField fx:id="profit20" layoutX="952.0" layoutY="960.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 20" />
+            <TextField fx:id="profit19" layoutX="952.0" layoutY="911.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 19" />
+            <TextField fx:id="profit18" layoutX="952.0" layoutY="862.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 18" />
+            <TextField fx:id="profit17" layoutX="952.0" layoutY="810.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 17" />
+            <TextField fx:id="profit16" layoutX="952.0" layoutY="763.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 16" />
+            <TextField fx:id="profit15" layoutX="952.0" layoutY="715.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 15" />
+            <TextField fx:id="profit14" layoutX="952.0" layoutY="673.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 14" />
+            <TextField fx:id="profit13" layoutX="952.0" layoutY="625.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 13" />
+            <TextField fx:id="profit36" layoutX="952.0" layoutY="1751.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 36" />
+            <TextField fx:id="profit35" layoutX="952.0" layoutY="1704.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 35" />
+            <TextField fx:id="profit34" layoutX="952.0" layoutY="1652.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 34" />
+            <TextField fx:id="profit33" layoutX="952.0" layoutY="1598.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 33" />
+            <TextField fx:id="profit32" layoutX="952.0" layoutY="1548.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 32" />
+            <TextField fx:id="profit31" layoutX="952.0" layoutY="1499.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 31" />
+            <TextField fx:id="profit30" layoutX="952.0" layoutY="1447.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 30" />
+            <TextField fx:id="profit29" layoutX="952.0" layoutY="1400.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 29" />
+            <TextField fx:id="profit28" layoutX="952.0" layoutY="1349.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 28" />
+            <TextField fx:id="profit27" layoutX="952.0" layoutY="1300.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 27" />
+            <TextField fx:id="profit26" layoutX="952.0" layoutY="1255.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 26" />
+            <TextField fx:id="profit25" layoutX="952.0" layoutY="1207.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 25" />
+            <TextField fx:id="profit37" layoutX="952.0" layoutY="1800.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 37" />
+            <TextField fx:id="profit38" layoutX="952.0" layoutY="1849.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 38" />
+            <TextField fx:id="profitTotal" layoutX="952.0" layoutY="2026.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit Total" />
+            <TextField fx:id="cost24" layoutX="825.0" layoutY="1158.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 24" />
+            <TextField fx:id="cost23" layoutX="825.0" layoutY="1111.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 23" />
+            <TextField fx:id="cost22" layoutX="825.0" layoutY="1061.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 22" />
+            <TextField fx:id="cost21" layoutX="825.0" layoutY="1008.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 21" />
+            <TextField fx:id="cost20" layoutX="825.0" layoutY="960.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 20" />
+            <TextField fx:id="cost19" layoutX="825.0" layoutY="911.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 19" />
+            <TextField fx:id="cost18" layoutX="825.0" layoutY="862.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 18" />
+            <TextField fx:id="cost17" layoutX="825.0" layoutY="807.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 17" />
+            <TextField fx:id="cost16" layoutX="825.0" layoutY="763.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 16" />
+            <TextField fx:id="cost15" layoutX="825.0" layoutY="719.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 15" />
+            <TextField fx:id="cost14" layoutX="825.0" layoutY="673.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 14" />
+            <TextField fx:id="cost13" layoutX="825.0" layoutY="630.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 13" />
+            <TextField fx:id="cost36" layoutX="825.0" layoutY="1750.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 36" />
+            <TextField fx:id="cost35" layoutX="825.0" layoutY="1703.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 35" />
+            <TextField fx:id="cost34" layoutX="825.0" layoutY="1651.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 34" />
+            <TextField fx:id="cost33" layoutX="825.0" layoutY="1597.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 33" />
+            <TextField fx:id="cost32" layoutX="825.0" layoutY="1549.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 32" />
+            <TextField fx:id="cost31" layoutX="825.0" layoutY="1499.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 31" />
+            <TextField fx:id="cost30" layoutX="825.0" layoutY="1446.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 30" />
+            <TextField fx:id="cost29" layoutX="825.0" layoutY="1399.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 29" />
+            <TextField fx:id="cost28" layoutX="825.0" layoutY="1349.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 28" />
+            <TextField fx:id="cost27" layoutX="825.0" layoutY="1299.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 27" />
+            <TextField fx:id="cost26" layoutX="825.0" layoutY="1256.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 26" />
+            <TextField fx:id="cost25" layoutX="825.0" layoutY="1207.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 25" />
+            <TextField fx:id="cost37" layoutX="825.0" layoutY="1799.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 37" />
+            <TextField fx:id="cost38" layoutX="825.0" layoutY="1849.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 38" />
+            <TextField fx:id="costTotal" layoutX="825.0" layoutY="2026.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost Total" />
+            <TextField fx:id="labor22" layoutX="713.0" layoutY="1061.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 22" />
+            <TextField fx:id="labor21" layoutX="713.0" layoutY="1009.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 21" />
+            <TextField fx:id="labor20" layoutX="713.0" layoutY="960.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 20" />
+            <TextField fx:id="labor19" layoutX="712.0" layoutY="910.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 19" />
+            <TextField fx:id="labor18" layoutX="712.0" layoutY="861.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 18" />
+            <TextField fx:id="labor17" layoutX="712.0" layoutY="807.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 17" />
+            <TextField fx:id="labor16" layoutX="712.0" layoutY="763.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 16" />
+            <TextField fx:id="labor15" layoutX="713.0" layoutY="719.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 15" />
+            <TextField fx:id="labor14" layoutX="712.0" layoutY="673.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 14" />
+            <TextField fx:id="labor26" layoutX="713.0" layoutY="1255.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 26" />
+            <TextField fx:id="labor13" layoutX="712.0" layoutY="630.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 13" />
+            <TextField fx:id="labor38" layoutX="712.0" layoutY="1849.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 38" />
+            <TextField fx:id="labor36" layoutX="713.0" layoutY="1751.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 36" />
+            <TextField fx:id="labor35" layoutX="712.0" layoutY="1704.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 35" />
+            <TextField fx:id="labor34" layoutX="713.0" layoutY="1651.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 34" />
+            <TextField fx:id="labor33" layoutX="712.0" layoutY="1598.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 33" />
+            <TextField fx:id="labor32" layoutX="712.0" layoutY="1548.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 32" />
+            <TextField fx:id="labor31" layoutX="712.0" layoutY="1498.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 31" />
+            <TextField fx:id="labor30" layoutX="712.0" layoutY="1447.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 30" />
+            <TextField fx:id="labor29" layoutX="713.0" layoutY="1399.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 29" />
+            <TextField fx:id="labor28" layoutX="713.0" layoutY="1349.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 28" />
+            <TextField fx:id="labor27" layoutX="712.0" layoutY="1300.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 27" />
+            <TextField fx:id="labor39" layoutX="713.0" layoutY="1899.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 39" />
+            <TextField fx:id="labor25" layoutX="712.0" layoutY="1206.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 25" />
+            <TextField fx:id="labor24" layoutX="712.0" layoutY="1158.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 24" />
+            <TextField fx:id="labor23" layoutX="713.0" layoutY="1112.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 23" />
+            <TextField fx:id="laborTotal" layoutX="712.0" layoutY="2026.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor Total" />
+            <TextField fx:id="freight24" layoutX="597.0" layoutY="1158.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 24" />
+            <TextField fx:id="freight23" layoutX="597.0" layoutY="1111.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 23" />
+            <TextField fx:id="freight22" layoutX="597.0" layoutY="1061.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 22" />
+            <TextField fx:id="freight21" layoutX="597.0" layoutY="1008.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 21" />
+            <TextField fx:id="freight20" layoutX="597.0" layoutY="959.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 20" />
+            <TextField fx:id="freight19" layoutX="597.0" layoutY="910.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 19" />
+            <TextField fx:id="freight18" layoutX="597.0" layoutY="861.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 18" />
+            <TextField fx:id="freight17" layoutX="597.0" layoutY="807.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 17" />
+            <TextField fx:id="freight16" layoutX="597.0" layoutY="763.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 16" />
+            <TextField fx:id="freight15" layoutX="597.0" layoutY="719.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 15" />
+            <TextField fx:id="freight14" layoutX="597.0" layoutY="673.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 14" />
+            <TextField fx:id="freight13" layoutX="597.0" layoutY="630.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 13" />
+            <TextField fx:id="freight36" layoutX="597.0" layoutY="1750.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 36" />
+            <TextField fx:id="freight35" layoutX="597.0" layoutY="1703.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 35" />
+            <TextField fx:id="freight34" layoutX="597.0" layoutY="1651.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 34" />
+            <TextField fx:id="freight33" layoutX="597.0" layoutY="1597.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 33" />
+            <TextField fx:id="freight32" layoutX="597.0" layoutY="1548.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 32" />
+            <TextField fx:id="freight31" layoutX="597.0" layoutY="1498.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 31" />
+            <TextField fx:id="freight30" layoutX="597.0" layoutY="1446.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 30" />
+            <TextField fx:id="freight29" layoutX="597.0" layoutY="1399.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 29" />
+            <TextField fx:id="freight28" layoutX="597.0" layoutY="1348.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 28" />
+            <TextField fx:id="freight27" layoutX="597.0" layoutY="1299.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 27" />
+            <TextField fx:id="freight26" layoutX="597.0" layoutY="1255.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 26" />
+            <TextField fx:id="freight25" layoutX="597.0" layoutY="1206.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 25" />
+            <TextField fx:id="freight37" layoutX="597.0" layoutY="1799.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 37" />
+            <TextField fx:id="freight38" layoutX="597.0" layoutY="1848.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 38" />
+            <TextField fx:id="freightTotal" layoutX="597.0" layoutY="2026.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight Total" />
+            <TextField layoutY="1898.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 39" />
+            <TextField layoutY="1949.0" prefHeight="25.0" prefWidth="150.0" promptText="Customer 40" />
+            <TextField fx:id="sale39" layoutX="205.0" layoutY="1898.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 39" />
+            <TextField fx:id="sale40" layoutX="205.0" layoutY="1949.0" prefHeight="25.0" prefWidth="88.0" promptText="Sale 40" />
+            <TextField fx:id="tax40" layoutX="319.0" layoutY="1949.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 40" />
+            <TextField fx:id="tax39" layoutX="319.0" layoutY="1898.0" prefHeight="25.0" prefWidth="97.0" promptText="Tax 39" />
+            <ComboBox id="comboBox12" fx:id="comboBox39" layoutX="466.0" layoutY="1894.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <ComboBox id="comboBox12" fx:id="comboBox40" layoutX="466.0" layoutY="1945.0" prefHeight="34.0" prefWidth="88.0" promptText="Choose" />
+            <TextField fx:id="freight39" layoutX="597.0" layoutY="1898.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 39" />
+            <TextField fx:id="freight40" layoutX="597.0" layoutY="1950.0" prefHeight="17.0" prefWidth="88.0" promptText="Freight 40" />
+            <TextField fx:id="labor37" layoutX="712.0" layoutY="1799.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 37" />
+            <TextField fx:id="labor40" layoutX="713.0" layoutY="1950.0" prefHeight="25.0" prefWidth="88.0" promptText="Labor 40" />
+            <TextField fx:id="cost39" layoutX="825.0" layoutY="1899.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 39" />
+            <TextField fx:id="cost40" layoutX="825.0" layoutY="1949.0" prefHeight="25.0" prefWidth="88.0" promptText="Cost 40" />
+            <TextField fx:id="profit39" layoutX="952.0" layoutY="1898.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 39" />
+            <TextField fx:id="profit40" layoutX="952.0" layoutY="1949.0" prefHeight="25.0" prefWidth="114.0" promptText="Profit 40" />
+            <Button fx:id="screenshotButton" layoutX="106.0" layoutY="2026.0" mnemonicParsing="false" onAction="#captureFrame" text="Screenshot" />
+            
+                </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
